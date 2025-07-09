@@ -1,0 +1,21 @@
+{
+  "name": "auth-testing-project",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.53.2",
+    "@types/node": "^24.0.10"
+  },
+  "dependencies": {
+    "playwright": "^1.53.2",
+    "playwright-core": "^1.53.2",
+    "undici-types": "^7.8.0"
+  },
+  "description": ""
+}

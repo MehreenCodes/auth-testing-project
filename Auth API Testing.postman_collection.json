@@ -1,0 +1,45 @@
+{
+	"info": {
+		"_postman_id": "0dc23554-768f-4d4d-808b-f2492facf64c",
+		"name": "Auth API Testing",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "45938804"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "urlencoded",
+					"urlencoded": [
+						{
+							"key": "username",
+							"value": "student",
+							"type": "text"
+						},
+						{
+							"key": "password",
+							"value": "Password123",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "https://practicetestautomation.com/practice-test-login/",
+					"protocol": "https",
+					"host": [
+						"practicetestautomation",
+						"com"
+					],
+					"path": [
+						"practice-test-login",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
